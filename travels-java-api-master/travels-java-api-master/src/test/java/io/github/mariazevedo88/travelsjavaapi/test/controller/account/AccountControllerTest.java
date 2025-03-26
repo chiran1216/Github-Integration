@@ -41,6 +41,8 @@ import io.github.mariazevedo88.travelsjavaapi.service.account.AccountService;
  * 
  * @author Mariana Azevedo
  * @since 10/12/2020
+ * 
+ * 
  */
 @SpringBootTest
 @AutoConfigureMockMvc
