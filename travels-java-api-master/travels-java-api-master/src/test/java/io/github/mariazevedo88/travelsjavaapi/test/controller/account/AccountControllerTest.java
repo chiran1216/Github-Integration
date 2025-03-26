@@ -132,5 +132,7 @@ public class AccountControllerTest {
 		AccountDTO dto = new AccountDTO(id, accountNumber, accountType);
 		return new ObjectMapper().writeValueAsString(dto);
 	}
-	
+	private void name() {
+		String string="abc";
+	}
 }
