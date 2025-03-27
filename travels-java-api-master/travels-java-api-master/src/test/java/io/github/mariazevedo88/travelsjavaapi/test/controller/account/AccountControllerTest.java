@@ -41,8 +41,6 @@ import io.github.mariazevedo88.travelsjavaapi.service.account.AccountService;
 
 
 
-
-
 /**
  * Class that implements tests of the AccountController features
  * 
@@ -75,6 +73,7 @@ public class AccountControllerTest {
 	private void setUp() {
 		headers = new HttpHeaders();
         headers.set("X-api-key", "FX001-ZBSY6YSLP");
+        2
 	}
 	
 	/**
@@ -130,11 +129,9 @@ public class AccountControllerTest {
 	 */
 	private String getJsonPayload(Long id, String accountNumber, String accountType) 
 			throws JsonProcessingException {
-		
+		int i=0;
 		AccountDTO dto = new AccountDTO(id, accountNumber, accountType);
 		return new ObjectMapper().writeValueAsString(dto);
 	}
-	private void name() {
-		String string="abc";
-	}
+	
 }
