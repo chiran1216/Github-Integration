@@ -41,8 +41,6 @@ import io.github.mariazevedo88.travelsjavaapi.service.account.AccountService;
 
 
 
-
-
 /**
  * Class that implements tests of the AccountController features
  * 
