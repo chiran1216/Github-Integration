@@ -5,8 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
 @RestController
 @RequestMapping("/")
 public class IndexController {
@@ -15,7 +13,4 @@ public class IndexController {
     public String sayHello() {
         return "Hello and Welcome to the EasyNotes application. You can create a new Note by making a POST request to /api/notes endpoint.";
     }
-    public static void main(String[] args) {
-		int i=0;
-	}
 }
